@@ -1,48 +1,48 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=header&text=&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00D4FF&height=120&section=header&text=&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=7C3AED&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti+by+Aevra" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti+by+Aevra" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/B.Tech%20AI%20%26%20Data%20Science-7C3AED?style=flat-square&labelColor=0D0D1A" />
+  <img src="https://img.shields.io/badge/B.Tech%20AI%20%26%20Data%20Science-00D4FF?style=flat-square&labelColor=0D0D1A" />
   &nbsp;
   <img src="https://img.shields.io/badge/Location-Krishnagiri%2C%20Tamil%20Nadu-00D4FF?style=flat-square&labelColor=0D0D1A" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Entity-Naeris-7C3AED?style=flat-square&labelColor=0D0D1A" />
+  <img src="https://img.shields.io/badge/Entity-Naeris-00D4FF?style=flat-square&labelColor=0D0D1A" />
 </p>
 
 <p align="center">
   <a href="https://naeris.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-naeris.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D0D1A" />
+    <img src="https://img.shields.io/badge/Portfolio-naeris.vercel.app-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D0D1A" />
   </a>
   &nbsp;
-  <a href="mailto:tharunstryker@gmail.com">
-    <img src="https://img.shields.io/badge/Email-tharunstryker%40gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
+  <a href="mailto:neetibyaevra@gmail.com">
+    <img src="https://img.shields.io/badge/Email-neetibyaevra%40gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
   </a>
   &nbsp;
   <a href="https://github.com/tharunstryker">
-    <img src="https://img.shields.io/badge/GitHub-tharunstryker-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D1A" />
+    <img src="https://img.shields.io/badge/GitHub-tharunstryker-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D1A" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tharunstryker&style=flat-square&color=7C3AED&label=Profile+Views&labelColor=0D0D1A" />
+  <img src="https://komarev.com/ghpvc/?username=tharunstryker&style=flat-square&color=00D4FF&label=Profile+Views&labelColor=0D0D1A" />
   &nbsp;
   <img src="https://img.shields.io/github/followers/tharunstryker?style=flat-square&color=00D4FF&label=Followers&labelColor=0D0D1A" />
   &nbsp;
-  <img src="https://img.shields.io/github/stars/tharunstryker?style=flat-square&color=7C3AED&label=Stars&labelColor=0D0D1A" />
+  <img src="https://img.shields.io/github/stars/tharunstryker?style=flat-square&color=00D4FF&label=Stars&labelColor=0D0D1A" />
 </p>
 
 ---
 
 ## ◈ About
 
-<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&icon_color=00D4FF&text_color=FFFFFF&ring_color=7C3AED&hide_border=false" />
+<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=0099BB&text_color=FFFFFF&ring_color=00D4FF&hide_border=false" />
 
 First-year AI & Data Science engineer and solo founder. Building **Neeti by Aevra** — a production-grade dual-product SaaS platform for Indian students — entirely on Android via Termux. No laptop. No framework. No build step.
 
@@ -189,11 +189,11 @@ Solo-built a production SaaS from zero — brand identity, frontend architecture
 ## ◈ GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=7C3AED&stroke=7C3AED&ring=00D4FF&fire=7C3AED&currStreakLabel=00D4FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&text_color=FFFFFF&hide_border=false" />
 </p>
 
 ---
@@ -201,7 +201,7 @@ Solo-built a production SaaS from zero — brand identity, frontend architecture
 ## ◈ Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=7C3AED&line=00D4FF&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=0099BB&point=FFFFFF&area=true&area_color=00D4FF&hide_border=false&border_color=00D4FF" />
 </p>
 
 ---
@@ -246,7 +246,7 @@ status:
   </a>
   &nbsp;
   <a href="https://github.com/tharunstryker">
-    <img src="https://img.shields.io/badge/GitHub-tharunstryker-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D1A" />
+    <img src="https://img.shields.io/badge/GitHub-tharunstryker-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D1A" />
   </a>
   &nbsp;
   <a href="https://naeris.vercel.app">
@@ -261,5 +261,5 @@ status:
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=100&section=footer&text=&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00D4FF&height=100&section=footer&text=&animation=fadeIn" width="100%" />
 </p>
