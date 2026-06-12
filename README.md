@@ -21,8 +21,8 @@
     <img src="https://img.shields.io/badge/Portfolio-naeris.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D0D1A" />
   </a>
   &nbsp;
-  <a href="mailto:neetibyaevra@gmail.com">
-    <img src="https://img.shields.io/badge/Email-neetibyaevra%40gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
+  <a href="mailto:tharunstryker@gmail.com">
+    <img src="https://img.shields.io/badge/Email-tharunstryker%40gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
   </a>
   &nbsp;
   <a href="https://github.com/tharunstryker">
