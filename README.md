@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00D4FF&height=120&section=header&text=&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=120&section=header&text=&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
@@ -9,11 +9,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/B.Tech%20AI%20%26%20Data%20Science-00D4FF?style=flat-square&labelColor=0D0D1A" />
+  <img src="https://img.shields.io/badge/B.Tech%20AI%20%26%20Data%20Science-7C3AED?style=flat-square&labelColor=0D0D1A" />
   &nbsp;
   <img src="https://img.shields.io/badge/Location-Krishnagiri%2C%20Tamil%20Nadu-00D4FF?style=flat-square&labelColor=0D0D1A" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Entity-Naeris-00D4FF?style=flat-square&labelColor=0D0D1A" />
+  <img src="https://img.shields.io/badge/Entity-Naeris-7C3AED?style=flat-square&labelColor=0D0D1A" />
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
   </a>
   &nbsp;
   <a href="mailto:neetibyaevra@gmail.com">
-    <img src="https://img.shields.io/badge/Email-neetibyaevra%40gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
+    <img src="https://img.shields.io/badge/Email-neetibyaevra%40gmail.com-7C3AED?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
   </a>
   &nbsp;
   <a href="https://github.com/tharunstryker">
@@ -31,20 +31,20 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tharunstryker&style=flat-square&color=00D4FF&label=Profile+Views&labelColor=0D0D1A" />
+  <img src="https://komarev.com/ghpvc/?username=tharunstryker&style=flat-square&color=7C3AED&label=Profile+Views&labelColor=0D0D1A" />
   &nbsp;
   <img src="https://img.shields.io/github/followers/tharunstryker?style=flat-square&color=00D4FF&label=Followers&labelColor=0D0D1A" />
   &nbsp;
-  <img src="https://img.shields.io/github/stars/tharunstryker?style=flat-square&color=00D4FF&label=Stars&labelColor=0D0D1A" />
+  <img src="https://img.shields.io/github/stars/tharunstryker?style=flat-square&color=7C3AED&label=Stars&labelColor=0D0D1A" />
 </p>
 
 ---
 
 ## ◈ About
 
-<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=0099BB&text_color=FFFFFF&ring_color=00D4FF&hide_border=false" />
+<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=7C3AED&text_color=FFFFFF&ring_color=7C3AED&hide_border=false" />
 
-First-year AI & Data Science engineer and solo founder. Building **Neeti by Aevra** — a production-grade dual-product SaaS platform for Indian students — entirely on Android via Termux. No laptop. No framework. No build step.
+B.Tech AI & Data Science engineer and solo founder. Building **Neeti by Aevra** — a production-grade dual-product SaaS platform for Indian students — entirely on Android via Termux. No laptop. No framework. No build step.
 
 Neeti comprises **CareerKit** (five AI career tools: resume, cover letter, LinkedIn bio, cold email, interview prep) and **CardStudio** (a modular interactive greeting card engine with gates, animations, music, and hosted share links). Every layer — product, frontend, backend, AI pipeline, security, billing — is sole-authored.
 
@@ -121,6 +121,25 @@ Security audit (2026-05-26) resolved: free-tier credit bypass (critical), MEDIA/
 </details>
 
 <details>
+<summary><b>PromptLens — Open-Source AI Response Comparator</b></summary>
+<br/>
+
+Developer utility for comparing LLM responses across multiple providers side-by-side. Designed for prompt engineers evaluating model behavior at the output level.
+
+| Attribute | Detail |
+|---|---|
+| **Stack** | Vanilla JS · Multi-provider LLM APIs |
+| **Scale** | Public open-source |
+| **Performance** | Parallel API calls, response diff rendering |
+| **Security** | Client-side key handling, no server storage |
+| **Impact** | Prompt engineering workflow tooling |
+| **Repository** | [github.com/tharunstryker/PromptLens](https://github.com/tharunstryker/PromptLens) |
+
+`© 2026 Naeris` — Part of the Aevra product studio pipeline.
+
+</details>
+
+<details>
 <summary><b>Ask — Zero-Install Python AI Utility</b></summary>
 <br/>
 
@@ -139,25 +158,6 @@ Built to solve a real constraint: engineering lab PCs block pip and package mana
 
 </details>
 
-<details>
-<summary><b>PromptLens — Open-Source AI Response Comparator (Planned)</b></summary>
-<br/>
-
-Developer utility for comparing LLM responses across multiple providers side-by-side. Designed for prompt engineers evaluating model behavior at the output level.
-
-| Attribute | Detail |
-|---|---|
-| **Stack** | Vanilla JS · Multi-provider LLM APIs |
-| **Scale** | Public open-source |
-| **Performance** | Parallel API calls, response diff rendering |
-| **Security** | Client-side key handling, no server storage |
-| **Impact** | Prompt engineering workflow tooling |
-| **Repository** | TBD — deferred until post-Neeti launch |
-
-`© 2026 Naeris` — Part of the Aevra product studio pipeline.
-
-</details>
-
 ---
 
 ## ◈ Experience
@@ -165,7 +165,7 @@ Developer utility for comparing LLM responses across multiple providers side-by-
 **Founder & Full-Stack Engineer** · **Naeris** *(Aevra Studio → Neeti)*
 `Jan 2026 — Present`
 
-Solo-built a production SaaS from zero — brand identity, frontend architecture, backend schema, AI pipeline, billing logic, and full security audit — during Year 1 of engineering, on a mobile device.
+Solo-built a production SaaS from zero — brand identity, frontend architecture, backend schema, AI pipeline, billing logic, and full security audit — during B.Tech Year 1, on a mobile device.
 
 - Designed and shipped Supabase schema: 5 tables, RLS across all, 2 live migrations, signup trigger, atomic credit operations
 - Built 4-stage AI fallback chain with 5-key Gemini rotation and premium queue bypass across 5 CareerKit tools
@@ -189,11 +189,11 @@ Solo-built a production SaaS from zero — brand identity, frontend architecture
 ## ◈ GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&text_color=FFFFFF&hide_border=false" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false" />
 </p>
 
 ---
@@ -201,7 +201,7 @@ Solo-built a production SaaS from zero — brand identity, frontend architecture
 ## ◈ Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=0099BB&point=FFFFFF&area=true&area_color=00D4FF&hide_border=false&border_color=00D4FF" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=00D4FF" />
 </p>
 
 ---
@@ -250,7 +250,7 @@ status:
   </a>
   &nbsp;
   <a href="https://naeris.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-naeris.vercel.app-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D0D1A" />
+    <img src="https://img.shields.io/badge/Portfolio-naeris.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D0D1A" />
   </a>
 </p>
 
@@ -261,5 +261,5 @@ status:
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00D4FF&height=100&section=footer&text=&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=100&section=footer&text=&animation=fadeIn" width="100%" />
 </p>
