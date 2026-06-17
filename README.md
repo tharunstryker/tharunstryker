@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti+by+Aevra" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti[...]
   </a>
 </p>
 
@@ -42,9 +42,9 @@
 
 ## ◈ About
 
-<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=7C3AED&text_color=FFFFFF&ring_color=7C3AED&hide_border=false" />
+<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color[...]
 
-B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely on Android via Termux. No laptop. No PC.
+B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely on Android via Termux.
 
 **Open To:**
 - AI/ML freelance contracts
@@ -56,7 +56,7 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 ## ◈ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,html,css,js&theme=dark" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,javascript,html,css&theme=dark" /><br/>
   <sub><b>Languages</b></sub>
 </p>
 
@@ -66,7 +66,7 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vercel,git,github,linux,bash,androidstudio&theme=dark" /><br/>
+  <img src="https://skillicons.dev/icons?i=vercel,git,github,linux,bash&theme=dark" /><br/>
   <sub><b>Cloud, DevOps & Tooling</b></sub>
 </p>
 
@@ -75,28 +75,119 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 ## ◈ Featured Projects
 
 <details>
-<summary><b>psiwatch — Zero-Dependency Python ML Drift Detection Library</b></summary>
+<summary><b>⚡ psiwatch — Zero-Dependency ML Drift Detection</b></summary>
 <br/>
 
-Published Python package on PyPI. Detects data drift between training and production datasets using PSI, Chi-Square, Mean Shift, and Standard Deviation analysis. Pure Python — no numpy, no scipy, no pandas required.
+**Dataset drift detection for production ML pipelines.** Detects covariate drift, distribution shift, and data quality degradation between training and production data using PSI, Chi-Square, Mean Shift, and Standard Deviation analysis.
 
-| Attribute | Detail |
-|---|---|
-| **Stack** | Pure Python · Zero dependencies · Standard library only |
-| **Install** | `pip install psiwatch` · ~15KB |
-| **Features** | CLI tool · HTML/JSON/TXT reports · `--fail-on-drift` CI flag · Webhook alerts · Baseline locking · Directory watcher · Trend analysis |
-| **Platforms** | Windows · Mac · Linux · Colab · Termux/Android |
-| **Repository** | [github.com/tharunstryker/psiwatch](https://github.com/tharunstryker/psiwatch) |
+**Why it matters:** Models trained on historical data silently fail when production data drifts. Most teams discover this *after* the model breaks. psiwatch alerts you *before* it's too late.
 
+### Core Features
+- **Zero dependencies** — pure Python, standard library only. ~15KB install. Works anywhere Python runs (Windows, Mac, Linux, Termux/Android, Google Colab).
+- **CLI tool** — `psiwatch compare train.csv production.csv` outputs formatted reports with severity flags.
+- **Multiple I/O modes** — CSV files, pandas DataFrames, Python dicts, lists of dicts.
+- **4 detection methods** — PSI (Population Stability Index), Mean Shift (std deviations), Std Deviation Shift, Chi-Square test.
+- **Rich output** — Terminal (ANSI colored), HTML (shareable), JSON (CI/CD), TXT (logs).
+- **Trend direction** — Numeric columns show trend as ↑ ↓ → (increasing, decreasing, stable).
+- **Vanished category detection** — Flags categories that disappeared from production vs training.
+- **CI/CD integration** — `--fail-on-drift` flag exits with code 1 on drift (block deployments).
+- **Baseline locking** — Lock training data as a statistical fingerprint, ship with model, check in production.
+- **Directory watching** — Poll new CSV files and auto-check against a locked baseline.
+- **Webhook alerts** — Send Slack/Discord/custom JSON alerts when drift detected.
+- **Config files** — `psiwatch.toml` or `.psiwatchrc` for persistent settings.
+- **Trend analysis** — Track drift across time sequences (`psiwatch trend day1.csv day2.csv day3.csv`).
+
+### Quick Start
 ```bash
 pip install psiwatch
-psiwatch compare train.csv production.csv
+psiwatch compare old.csv new.csv --output report.html
 ```
+
+### CLI Commands
+```bash
+psiwatch compare train.csv prod.csv              # Compare two datasets
+psiwatch compare train.csv prod.csv --fail-on-drift  # Fail if drift > threshold
+psiwatch compare train.csv prod.csv --webhook https://hooks.slack.com/...  # Alert on drift
+psiwatch lock train.csv                          # Lock baseline
+psiwatch check prod.csv --fail-on-drift          # Check against lock
+psiwatch trend day1.csv day2.csv day3.csv        # Track drift over time
+psiwatch watch data/ --once                      # Check directory (cron-safe)
+psiwatch summary train.csv prod.csv              # Health score only (scripts)
+```
+
+### Python API
+```python
+import psiwatch
+
+# CSV or DataFrame
+psiwatch.compare("old.csv", "new.csv", output="report.html")
+
+# Raw results
+result = psiwatch.analyze("old.csv", "new.csv")
+print(result["health_score"])  # 0-100
+
+# Catch drift in code
+from psiwatch import DriftDetected
+try:
+    psiwatch.compare("old.csv", "new.csv", fail_on_drift=True)
+except DriftDetected:
+    # send alert, stop deploy, etc.
+```
+
+### Comparison with Competitors
+| Feature | psiwatch | evidently | alibi-detect |
+|---|---|---|---|
+| **Dependencies** | ✓ Zero | ✗ Heavy | ✗ Heavy |
+| **Install size** | ✓ ~15KB | ✗ ~50MB+ | ✗ ~100MB+ |
+| **CLI tool** | ✓ Yes | ✗ No | ✗ No |
+| **CI/CD `--fail-on-drift`** | ✓ Yes | ✗ No | ✗ No |
+| **Works on Android (Termux)** | ✓ Yes | ✗ No | ✗ No |
+| **Pure Python** | ✓ Yes | ✗ No | ✗ No |
+| **Vanished category detection** | ✓ Yes | ✗ No | ✗ No |
+| **Trend direction (↑↓→)** | ✓ Yes | ✗ No | ✗ No |
+| **Self-upgrade via CLI** | ✓ Yes | ✗ No | ✗ No |
+
+### Example Report
+```
+══════════════════════════════════════════════════════════════
+  PSIWATCH REPORT
+  baseline: train.csv  →  new: production.csv
+══════════════════════════════════════════════════════════════
+
+  [ALERT] credit_score [numeric] — HIGH DRIFT
+     → Mean shifted by 2.20 std devs (752 → 624)  ↓
+     → PSI = 11.12 (significant drift)
+     ┌ Mean:    752 → 624  ↓
+     ├ Std:     48 → 71
+     ├ PSI:     11.12
+     └ Min:     600 → 420
+
+  [ALERT] loan_type [categorical] — HIGH DRIFT
+     → New categories found: ['BNPL', 'Crypto']
+     → Categories vanished: ['Personal']
+     → PSI = 4.19
+
+  ──────────────────────────────────────────────────────────────
+  Health Score: 11/100 (Significant Drift — Action Required)
+══════════════════════════════════════════════════════════════
+```
+
+### Health Score Thresholds
+| Score | Status | Action |
+|---|---|---|
+| 80–100 | ✓ Stable | Model is fine, no action needed |
+| 50–79 | ⚠ Moderate | Monitor closely, investigate root cause |
+| 0–49 | ✗ Significant | Retrain model immediately |
+
+| Repository | Links |
+|---|---|
+| **Source** | [github.com/tharunstryker/psiwatch](https://github.com/tharunstryker/psiwatch) |
+| **PyPI** | [pypi.org/project/psiwatch](https://pypi.org/project/psiwatch) |
 
 </details>
 
 <details>
-<summary><b>PromptLens — Open-Source AI Response Comparator</b></summary>
+<summary><b>🔍 PromptLens — Open-Source AI Response Comparator</b></summary>
 <br/>
 
 Developer utility for comparing LLM responses across multiple providers side-by-side. Built for prompt engineers evaluating model behavior at the output level.
@@ -110,10 +201,10 @@ Developer utility for comparing LLM responses across multiple providers side-by-
 </details>
 
 <details>
-<summary><b>Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
+<summary><b>🎯 Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
 <br/>
 
-Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — product, frontend, backend, AI pipeline, security, billing.
+Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — architecture, design, backend, frontend, DevOps, security audit.
 
 | Attribute | Detail |
 |---|---|
@@ -151,11 +242,11 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 ## ◈ GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabel[...]
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_b[...]
 </p>
 
 ---
@@ -163,7 +254,7 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 ## ◈ Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=00D4FF" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_colo[...]
 </p>
 
 ---
@@ -215,4 +306,3 @@ status:
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=100&section=footer&text=&animation=fadeIn" width="100%" />
 </p>
-
