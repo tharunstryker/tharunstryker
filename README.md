@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti+by+Aevra;psiwatch+on+PyPI;Zero-Dependency+Systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti" alt="Typing SVG" />
   </a>
 </p>
 
@@ -42,9 +42,9 @@
 
 ## ◈ About
 
-<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&hide_border=false" />
+<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF" />
 
-B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely on Android via Termux.
+B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely bootstrapped.
 
 **Open To:**
 - AI/ML freelance contracts
@@ -78,7 +78,7 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 <summary><b>psiwatch — Zero-Dependency ML Drift Detection</b></summary>
 <br/>
 
-**Dataset drift detection for production ML pipelines.** Detects covariate drift, distribution shift, and data quality degradation between training and production data using PSI, Chi-Square, Mean Shift, and Std Deviation tests.
+**Dataset drift detection for production ML pipelines.** Detects covariate drift, distribution shift, and data quality degradation between training and production data using PSI, Chi-Square, Mean Shift, and Std Dev analysis.
 
 **Why it matters:** Models trained on historical data silently fail when production data drifts. Most teams discover this *after* the model breaks. psiwatch alerts you *before* it's too late.
 
@@ -204,7 +204,7 @@ Developer utility for comparing LLM responses across multiple providers side-by-
 <summary><b>Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
 <br/>
 
-Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — auth, database design, API, frontend, AI orchestration, deployment.
+Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — frontend, backend, deployment, AI orchestration.
 
 | Attribute | Detail |
 |---|---|
@@ -254,7 +254,7 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 ## ◈ Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED" alt="Contribution Activity" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED" alt="Contribution Graph" />
 </p>
 
 ---
