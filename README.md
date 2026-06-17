@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:070714,50:0D0D1A,100:1a0a2e&height=180&section=header&text=THARUN&fontSize=70&fontColor=00D4FF&fontAlign=50&fontAlignY=35&stroke=7C3AED" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=140&section=header&text=THARUN&fontSize=60&fontColor=00D4FF&fontAlign=50&fontAlignY=40&desc=Founder%20%26%20Engineer%20%E2%80%94%20Building%20Naeris&descSize=16&descAlign=50&descAlignY=60&descColor=C9C9D9&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=24&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Solo+Founder+%E2%80%94+Naeris;Shipping+Neeti+by+Aevra;Built+Entirely+on+Android" alt="Typing SVG" />
   </a>
 </p>
 
@@ -38,15 +38,15 @@
   <img src="https://img.shields.io/github/stars/tharunstryker?style=flat-square&color=7C3AED&label=Stars&labelColor=0D0D1A" />
 </p>
 
----
+<br/>
 
-## About
+## ◈ About
 
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=00D4FF" />
+<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=7C3AED&text_color=FFFFFF&ring_color=7C3AED&hide_border=false&cache_seconds=1800" />
 
-B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely solo from Android.
+B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform. Every line written entirely on Android via Termux. No laptop. No PC.
 
-**Open To:**
+**Open to:**
 - AI/ML freelance contracts
 - Early-stage technical collaboration
 - Open-source contributions
@@ -55,7 +55,7 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 
 ---
 
-## Tech Stack
+## ◈ Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,html,css,js&theme=dark" /><br/>
@@ -74,19 +74,34 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 
 ---
 
-## Featured Projects
+## ◈ Featured Projects
+
+<details open>
+<summary><b>Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
+<br/>
+
+Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — product, frontend, backend, AI pipeline, security, billing.
+
+| Attribute | Detail |
+|---|---|
+| **Stack** | Vanilla JS · Supabase · Vercel Edge · Cloudinary · Gemini / Groq / GitHub Models / OpenRouter |
+| **AI** | 4-provider fallback chain · 5 rotating Gemini keys · server-side prompt isolation |
+| **Security** | RLS on all 5 tables · two-cookie admin auth · `_buildEFILES(cfg)` per-tier asset bundling |
+| **Link** | [naeris.vercel.app](https://naeris.vercel.app) |
+
+</details>
 
 <details>
 <summary><b>psiwatch — Zero-Dependency Python ML Drift Detection Library</b></summary>
 <br/>
 
-Published Python package on PyPI. Detects data drift between training and production datasets using PSI, Chi-Square, Mean Shift, and Standard Deviation analysis. Pure Python — no numpy, no scipy, no external dependencies.
+Published Python package on PyPI. Detects data drift between training and production datasets using PSI, Chi-Square, Mean Shift, and Standard Deviation analysis. Pure Python — no numpy, no scipy, no pandas required.
 
 | Attribute | Detail |
 |---|---|
 | **Stack** | Pure Python · Zero dependencies · Standard library only |
 | **Install** | `pip install psiwatch` · ~15KB |
-| **Features** | CLI tool · HTML/JSON/TXT reports · `--fail-on-drift` CI flag · Webhook alerts · Baseline locking · Directory watcher · Trend analysis |
+| **Features** | CLI tool · HTML/JSON/TXT reports · `--fail-on-drift` CI flag · webhook alerts · baseline locking · directory watcher · trend analysis |
 | **Platforms** | Windows · Mac · Linux · Colab · Termux/Android |
 | **Repository** | [github.com/tharunstryker/psiwatch](https://github.com/tharunstryker/psiwatch) |
 
@@ -106,35 +121,20 @@ Developer utility for comparing LLM responses across multiple providers side-by-
 | Attribute | Detail |
 |---|---|
 | **Stack** | Vanilla JS · Multi-provider LLM APIs |
-| **Scale** | Public open-source |
+| **Scale** | Public, open-source |
 | **Repository** | [github.com/tharunstryker/PromptLens](https://github.com/tharunstryker/PromptLens) |
-
-</details>
-
-<details>
-<summary><b>Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
-<br/>
-
-Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — frontend, backend, database, and AI orchestration.
-
-| Attribute | Detail |
-|---|---|
-| **Stack** | Vanilla JS · Supabase · Vercel Edge · Cloudinary · Gemini/Groq/GitHub Models/OpenRouter |
-| **AI** | 4-provider fallback chain · 5 rotating Gemini keys · server-side prompt isolation |
-| **Security** | RLS on all 5 tables · two-cookie admin auth · `_buildEFILES(cfg)` per-tier asset bundling |
-| **Link** | [naeris.vercel.app](https://naeris.vercel.app) |
 
 </details>
 
 ---
 
-## Experience
+## ◈ Experience
 
 **Founder & Engineer** · **Naeris**
 `Jan 2026 — Present`
 
+- Built and shipped Neeti: CareerKit + CardStudio, a production SaaS on Vercel + Supabase
 - Published `psiwatch` to PyPI — zero-dependency Python ML monitoring library
-- Built and shipped Neeti: CareerKit + CardStudio, production SaaS on Vercel + Supabase
 - 4-stage AI fallback chain with 5-key Gemini rotation across all tools
 - Full security audit: RLS across 5 tables, tier-gated asset bundling, two-cookie admin auth
 - Built entirely on Android via Termux — no laptop, no PC
@@ -150,19 +150,37 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 
 ---
 
-## GitHub Analytics
+## ◈ GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabel=00D4FF" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
 </p>
 
+<!--
+  TOP LANGUAGES CARD — known issue:
+  github-readme-stats.vercel.app is a shared public instance that hits GitHub's
+  API rate limit constantly (see anuraghazra/github-readme-stats#4658, #3817).
+  cache_seconds below softens it (serves a cached response instead of a live
+  call every page load) but does NOT fix it — if the card is broken when it
+  caches, you get a broken card for the cache window.
+
+  Permanent fix — self-host your own instance (~10 min, one-time):
+    1. Fork https://github.com/anuraghazra/github-readme-stats
+    2. Import the fork into Vercel (vercel.com/new)
+    3. Generate a GitHub PAT (classic, no scopes needed for public stats)
+       → Vercel project → Settings → Environment Variables → PAT_1 = <token>
+    4. Redeploy. Swap the domain below from github-readme-stats.vercel.app
+       to your-fork-name.vercel.app
+  Your own instance only serves your own card, so it never competes for the
+  shared rate limit and effectively never goes down.
+-->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false&langs_count=8&cache_seconds=1800" />
 </p>
 
 ---
 
-## Contribution Activity
+## ◈ Contribution Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=00D4FF" />
@@ -170,7 +188,7 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 
 ---
 
-## Contribution Snake
+## ◈ Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake-dark.svg" />
@@ -178,13 +196,13 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 
 ---
 
-## Current Focus
+## ◈ Current Focus
 
 ```yaml
 status:
   building:
-    - psiwatch — ML drift detection library (PyPI live)
     - Neeti by Aevra — CareerKit + CardStudio (Razorpay KYC pending)
+    - psiwatch — ML drift detection library (PyPI live)
   open_to:
     - AI/ML freelance contracts
     - Early-stage technical collaboration
@@ -192,7 +210,7 @@ status:
 
 ---
 
-## Connect
+## ◈ Connect
 
 <p align="center">
   <a href="mailto:tharunstryker@gmail.com">
@@ -215,5 +233,6 @@ status:
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:070714,50:0D0D1A,100:1a0a2e&height=100&section=footer&text=&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=100&section=footer&text=&animation=fadeIn" width="100%" />
 </p>
+ 
