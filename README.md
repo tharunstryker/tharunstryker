@@ -75,7 +75,7 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 ## ◈ Featured Projects
 
 <details>
-<summary><b>⚡ psiwatch — Zero-Dependency ML Drift Detection</b></summary>
+<summary><b>psiwatch — Zero-Dependency ML Drift Detection</b></summary>
 <br/>
 
 **Dataset drift detection for production ML pipelines.** Detects covariate drift, distribution shift, and data quality degradation between training and production data using PSI, Chi-Square, Mean Shift, and Standard Deviation analysis.
@@ -137,15 +137,15 @@ except DriftDetected:
 ### Comparison with Competitors
 | Feature | psiwatch | evidently | alibi-detect |
 |---|---|---|---|
-| **Dependencies** | ✓ Zero | ✗ Heavy | ✗ Heavy |
-| **Install size** | ✓ ~15KB | ✗ ~50MB+ | ✗ ~100MB+ |
-| **CLI tool** | ✓ Yes | ✗ No | ✗ No |
-| **CI/CD `--fail-on-drift`** | ✓ Yes | ✗ No | ✗ No |
-| **Works on Android (Termux)** | ✓ Yes | ✗ No | ✗ No |
-| **Pure Python** | ✓ Yes | ✗ No | ✗ No |
-| **Vanished category detection** | ✓ Yes | ✗ No | ✗ No |
-| **Trend direction (↑↓→)** | ✓ Yes | ✗ No | ✗ No |
-| **Self-upgrade via CLI** | ✓ Yes | ✗ No | ✗ No |
+| **Dependencies** | Yes (Zero) | No (Heavy) | No (Heavy) |
+| **Install size** | 15KB | 50MB+ | 100MB+ |
+| **CLI tool** | Yes | No | No |
+| **CI/CD `--fail-on-drift`** | Yes | No | No |
+| **Works on Android (Termux)** | Yes | No | No |
+| **Pure Python** | Yes | No | No |
+| **Vanished category detection** | Yes | No | No |
+| **Trend direction (↑↓→)** | Yes | No | No |
+| **Self-upgrade via CLI** | Yes | No | No |
 
 ### Example Report
 ```
@@ -175,9 +175,9 @@ except DriftDetected:
 ### Health Score Thresholds
 | Score | Status | Action |
 |---|---|---|
-| 80–100 | ✓ Stable | Model is fine, no action needed |
-| 50–79 | ⚠ Moderate | Monitor closely, investigate root cause |
-| 0–49 | ✗ Significant | Retrain model immediately |
+| 80–100 | STABLE | Model is fine, no action needed |
+| 50–79 | MODERATE | Monitor closely, investigate root cause |
+| 0–49 | SIGNIFICANT | Retrain model immediately |
 
 | Repository | Links |
 |---|---|
@@ -187,7 +187,7 @@ except DriftDetected:
 </details>
 
 <details>
-<summary><b>🔍 PromptLens — Open-Source AI Response Comparator</b></summary>
+<summary><b>PromptLens — Open-Source AI Response Comparator</b></summary>
 <br/>
 
 Developer utility for comparing LLM responses across multiple providers side-by-side. Built for prompt engineers evaluating model behavior at the output level.
@@ -201,7 +201,7 @@ Developer utility for comparing LLM responses across multiple providers side-by-
 </details>
 
 <details>
-<summary><b>🎯 Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
+<summary><b>Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
 <br/>
 
 Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — architecture, design, backend, frontend, DevOps, security audit.
