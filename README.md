@@ -2,17 +2,17 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=120&section=header&text=&animation=fadeIn" width="100%" />
 </p>
 
+<h1 align="center">Tharun Stryker</h1>
+
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris" alt="Typing SVG" />
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=24&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Founder+%26+Engineer;AI+%26+Data+Science;Building+Production+Systems" alt="Typing Animation" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/B.Tech%20AI%20%26%20Data%20Science-7C3AED?style=flat-square&labelColor=0D0D1A" />
-  &nbsp;
   <img src="https://img.shields.io/badge/Location-Krishnagiri%2C%20Tamil%20Nadu-00D4FF?style=flat-square&labelColor=0D0D1A" />
-  &nbsp;
   <img src="https://img.shields.io/badge/Entity-Naeris-7C3AED?style=flat-square&labelColor=0D0D1A" />
 </p>
 
@@ -20,11 +20,9 @@
   <a href="https://naeris.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-naeris.vercel.app-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D0D1A" />
   </a>
-  &nbsp;
   <a href="mailto:tharunstryker@gmail.com">
     <img src="https://img.shields.io/badge/Email-tharunstryker%40gmail.com-7C3AED?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
   </a>
-  &nbsp;
   <a href="https://github.com/tharunstryker">
     <img src="https://img.shields.io/badge/GitHub-tharunstryker-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D1A" />
   </a>
@@ -32,126 +30,141 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=tharunstryker&style=flat-square&color=7C3AED&label=Profile+Views&labelColor=0D0D1A" />
-  &nbsp;
   <img src="https://img.shields.io/github/followers/tharunstryker?style=flat-square&color=00D4FF&label=Followers&labelColor=0D0D1A" />
-  &nbsp;
   <img src="https://img.shields.io/github/stars/tharunstryker?style=flat-square&color=7C3AED&label=Stars&labelColor=0D0D1A" />
 </p>
 
 ---
 
-## About
+## Professional Overview
 
-I'm an AI & Data Science engineer and founder of **Naeris**. I ship real products—from open-source libraries to production SaaS platforms. I've published `psiwatch` to PyPI, built an AI tooling suite, and engineered production systems on Android.
+I am an **AI & Data Science engineer** and founder of **Naeris**, focused on shipping production-grade systems that solve real problems. My work spans open-source libraries, SaaS platforms, and ML infrastructure—all built with a commitment to code quality, security, and user impact.
 
-**Open To:**
-- AI/ML freelance work
+**Currently Open To:**
+- AI/ML freelance engagements and consulting
 - Early-stage technical partnerships
-- Open-source collaborations
+- Significant open-source contributions
+- Speaking and technical writing opportunities
 
 ---
 
-## Tech Stack
+## Core Competencies
 
-**Languages** · Python, JavaScript, HTML, CSS  
-**Backend** · Node.js, Supabase, PostgreSQL  
-**Cloud** · Vercel, Git, GitHub, Linux, Bash
+| **Dimension** | **Expertise** |
+|---|---|
+| **Languages** | Python, JavaScript, TypeScript, HTML, CSS, Bash |
+| **Backend Systems** | Node.js, Supabase, PostgreSQL, REST APIs, Serverless |
+| **Cloud & DevOps** | Vercel, GitHub, Linux, CI/CD pipelines, Edge functions |
+| **AI/ML** | Drift detection, multi-provider LLM orchestration, fallback chains, embeddings |
+| **Security** | Row-level security (RLS), authentication, API key management, data isolation |
 
 ---
 
-## Featured Work
+## Featured Projects
 
-<details>
-<summary><b>psiwatch — ML Drift Detection</b></summary>
-<br/>
+### psiwatch — ML Drift Detection
 
-Zero-dependency Python library for detecting data drift in production ML pipelines. Catches when your model's environment changes—before it breaks.
+**A zero-dependency Python library for detecting data drift in production ML pipelines.**
 
-**Why?** Models silently fail when production data drifts from training data. Most teams find out *after* damage is done. `psiwatch` alerts you early.
+Most data science teams discover model degradation *after* it causes business impact. `psiwatch` detects drift early by comparing production data against training distributions.
 
-**Key features:**
-- Pure Python, ~15KB install. Works anywhere (Windows, Mac, Linux, Android/Termux, Colab)
-- CLI + Python API for easy integration
-- Multiple detection methods (PSI, Chi-Square, Mean Shift analysis)
-- Rich terminal output, HTML reports, JSON for CI/CD
-- CI/CD integration with `--fail-on-drift` flag
-- Webhook alerts (Slack, Discord, custom)
+**Why It Matters:**
+- Production models fail silently when data distributions shift
+- Existing solutions require heavy dependencies or complex setup
+- `psiwatch` provides immediate, actionable insights
 
-**Quick start:**
+**Distinguishing Features:**
+- **Zero external dependencies** — ~15KB install, works on any Python environment (Windows, Mac, Linux, Android/Termux, Google Colab)
+- **Multiple detection methods** — PSI, Chi-Square test, mean shift analysis
+- **CLI + Python API** — Integrate however suits your workflow
+- **CI/CD ready** — JSON output, `--fail-on-drift` flag for automated gates
+- **Rich output formats** — Terminal reports, HTML dashboards, webhook alerts (Slack, Discord, custom)
+
+**Quick Example:**
 ```bash
 pip install psiwatch
 psiwatch compare train.csv prod.csv --output report.html
 ```
 
-| | psiwatch | competitors |
+| Feature | psiwatch | Competitors |
 |---|---|---|
-| **Zero dependencies** | ✓ | ✗ |
-| **CLI tool** | ✓ | ✗ |
-| **CI/CD ready** | ✓ | ✗ |
-| **Works on Android** | ✓ | ✗ |
+| **Zero dependencies** | Supported | Not supported |
+| **CLI tool** | Supported | Not supported |
+| **CI/CD integration** | Supported | Not supported |
+| **Runs on Android** | Supported | Not supported |
+| **Rich output formats** | Supported | Partial |
 
-→ [Source](https://github.com/tharunstryker/psiwatch) · [PyPI](https://pypi.org/project/psiwatch)
-
-</details>
-
-<details>
-<summary><b>PromptLens — AI Response Comparator</b></summary>
-<br/>
-
-Prompt engineer's toolkit for comparing LLM responses across multiple providers side-by-side. Built for evaluating model behavior fast.
-
-Stack: Vanilla JS · Multi-provider LLM APIs
-
-→ [Repository](https://github.com/tharunstryker/PromptLens)
-
-</details>
-
-<details>
-<summary><b>Neeti by Aevra — AI SaaS for Students</b></summary>
-<br/>
-
-Production SaaS platform with two products:
-- **CareerKit** — Five AI-powered career guidance tools
-- **CardStudio** — Interactive greeting card engine with animations, themes, and share links
-
-Everything built from scratch: frontend, backend, deployment, AI orchestration. Sole author across all layers.
-
-**Stack:** Vanilla JS · Supabase · Vercel Edge · Gemini/Groq/GitHub Models/OpenRouter  
-**Security:** RLS on all tables · two-cookie auth · tier-gated asset bundling  
-**AI:** 4-provider fallback chain with key rotation for reliability
-
-→ [Live](https://naeris.vercel.app)
-
-</details>
+**Links:** [GitHub Repository](https://github.com/tharunstryker/psiwatch) · [PyPI Package](https://pypi.org/project/psiwatch) · [Documentation](https://github.com/tharunstryker/psiwatch#readme)
 
 ---
 
-## Experience
+### Neeti by Aevra — AI-Powered Education SaaS
 
-**Founder & Engineer** · Naeris (Jan 2026 — Present)
+**Production SaaS platform delivering AI-powered education tools at scale.**
 
-- Shipped `psiwatch` to PyPI — zero-dependency ML monitoring
-- Built production SaaS (CareerKit + CardStudio) on Vercel + Supabase
-- Engineered 4-stage AI fallback chain with rotating API keys
-- Full security implementation: RLS, admin auth, asset bundling
-- Built everything on Android — no laptop, no desktop
+Neeti comprises two integrated products designed for modern students:
 
-**Stack:** Python · JavaScript · Supabase · Vercel · Gemini API · Termux
+**CareerKit** — Five AI-powered career guidance modules
+- Personalized career path recommendations
+- Skill gap analysis and learning roadmaps
+- Industry insights and market positioning
+
+**CardStudio** — Interactive greeting card engine
+- Animated templates and customizable themes
+- Real-time preview and instant sharing
+- Scalable delivery and asset optimization
+
+**Technical Highlights:**
+- **Full-stack ownership** — Frontend, backend, deployment, AI orchestration (solo)
+- **Security** — Row-level security on all tables, two-cookie authentication, tier-gated asset bundling
+- **AI Reliability** — 4-provider fallback chain (Gemini → Groq → GitHub Models → OpenRouter) with automatic key rotation
+- **Scalability** — Vercel Edge functions for sub-100ms response times, Supabase vector queries for retrieval
+
+**Stack:** Vanilla JavaScript · Supabase · Vercel Edge · Gemini API · Groq · GitHub Models · OpenRouter
+
+**Visit:** [naeris.vercel.app](https://naeris.vercel.app)
 
 ---
 
-## GitHub Overview
+### PromptLens — LLM Response Comparison Toolkit
+
+**Prompt engineering toolkit for evaluating and comparing LLM responses across multiple providers side-by-side.**
+
+Built to accelerate the prompt optimization workflow—test variations, compare outputs, benchmark providers in real-time.
+
+**Visit:** [GitHub Repository](https://github.com/tharunstryker/PromptLens)
+
+---
+
+## Professional Experience
+
+### Founder & Engineer — Naeris
+**January 2026 — Present**
+
+Leading all technical and product decisions for Naeris. Key accomplishments:
+
+- Shipped `psiwatch` to PyPI as a production-ready package with comprehensive documentation
+- Architected and deployed production SaaS platform serving multiple AI-powered products
+- Engineered fault-tolerant AI orchestration with 4-provider fallback chain and dynamic key rotation
+- Implemented enterprise-grade security: RLS, admin authentication, rate limiting, asset CDN
+- **Built production systems on Android (Termux)** — no traditional desktop development
+
+**Technical Stack:** Python · JavaScript · Supabase · PostgreSQL · Vercel · Edge Functions · Gemini API · Groq API
+
+---
+
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=00D4FF&sideNums=FFFFFF&cache_seconds=86400" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF" alt="GitHub Streak Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false&cache_seconds=86400" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED&cache_seconds=86400" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false" alt="Activity Graph" />
 </p>
 
 <p align="center">
@@ -160,44 +173,76 @@ Everything built from scratch: frontend, backend, deployment, AI orchestration. 
 
 ---
 
-## Current Focus
+## Current Initiatives
 
-Building the future of AI-powered education and ML reliability.
+**Short-term Focus (Q2 2026):**
+- Scaling Neeti user base through partnerships and community engagement
+- Expanding `psiwatch` feature set based on production feedback
+- Developing advanced monitoring capabilities for ML systems
 
-```yaml
-now:
-  - psiwatch — ML drift detection (PyPI live)
-  - Neeti — Education SaaS (product market fit phase)
+**Medium-term Vision:**
+- Building a comprehensive ML observability platform
+- Contributing high-impact open-source libraries to the AI/ML ecosystem
+- Establishing Naeris as the go-to platform for AI-powered education
 
-interested_in:
-  - AI/ML freelance contracts
-  - Early-stage collaborations
-  - Open-source impact
+```
+interests:
+  - Advanced ML monitoring and observability
+  - Scalable AI orchestration patterns
+  - Education technology and accessibility
+  - Open-source community building
+  - Production systems architecture
 ```
 
 ---
 
-## Connect
+## Collaboration & Partnerships
+
+I actively seek opportunities to collaborate on:
+
+- **AI/ML Infrastructure** — Designing systems that scale intelligently
+- **EdTech Innovation** — Building tools that democratize education
+- **Open-Source Impact** — Creating libraries that solve industry-wide problems
+- **Consulting & Advisory** — Guiding early-stage teams on technical architecture
+
+**Preferred engagement model:** Results-focused, long-term partnerships with clear technical ownership and autonomy.
+
+---
+
+## Technical Philosophy
+
+```
+Principles:
+  ├─ Simplicity over complexity
+  ├─ Pragmatism over perfection
+  ├─ Security from the ground up
+  ├─ Performance by design
+  └─ Code that teaches
+```
+
+*"No framework shortcuts. No bloat. No excuses."*
+
+---
+
+## Get In Touch
 
 <p align="center">
   <a href="mailto:tharunstryker@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-tharunstryker%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
+    <img src="https://img.shields.io/badge/Email-tharunstryker%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D1A" />
   </a>
-  &nbsp;
   <a href="https://github.com/tharunstryker">
     <img src="https://img.shields.io/badge/GitHub-tharunstryker-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D1A" />
   </a>
-  &nbsp;
   <a href="https://naeris.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-naeris.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D0D1A" />
   </a>
 </p>
 
----
-
 <p align="center">
-  <i>"No framework. No build step. No shortcuts."</i>
+  Open to meaningful conversations about AI, engineering, and building things that matter.
 </p>
+
+---
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=100&section=footer&text=&animation=fadeIn" width="100%" />
