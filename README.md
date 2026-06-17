@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris" alt="Typing SVG" />
   </a>
 </p>
 
@@ -40,206 +40,107 @@
 
 ---
 
-## ◈ About
+## About
 
-<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF" />
-
-B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely bootstrapped.
+I'm an AI & Data Science engineer and founder of **Naeris**. I ship real products—from open-source libraries to production SaaS platforms. I've published `psiwatch` to PyPI, built an AI tooling suite, and launched a production platform on Vercel + Supabase. All while learning on Android via Termux.
 
 **Open To:**
-- AI/ML freelance contracts
-- Early-stage technical collaboration
-- Open-source contributions
+- AI/ML freelance work
+- Early-stage technical partnerships
+- Open-source collaborations
 
 ---
 
-## ◈ Tech Stack
+## Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,html,css&theme=dark" /><br/>
-  <sub><b>Languages</b></sub>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=supabase,postgres,nodejs&theme=dark" /><br/>
-  <sub><b>Backend & Databases</b></sub>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vercel,git,github,linux,bash&theme=dark" /><br/>
-  <sub><b>Cloud, DevOps & Tooling</b></sub>
-</p>
+**Languages** · Python, JavaScript, HTML, CSS  
+**Backend** · Node.js, Supabase, PostgreSQL  
+**Cloud** · Vercel, Git, GitHub, Linux, Bash
 
 ---
 
-## ◈ Featured Projects
+## Featured Work
 
 <details>
-<summary><b>psiwatch — Zero-Dependency ML Drift Detection</b></summary>
+<summary><b>psiwatch — ML Drift Detection</b></summary>
 <br/>
 
-**Dataset drift detection for production ML pipelines.** Detects covariate drift, distribution shift, and data quality degradation between training and production data using PSI, Chi-Square, Mean Shift, and Std Dev analysis.
+Zero-dependency Python library for detecting data drift in production ML pipelines. Catches when your model's environment changes—before it breaks.
 
-**Why it matters:** Models trained on historical data silently fail when production data drifts. Most teams discover this *after* the model breaks. psiwatch alerts you *before* it's too late.
+**Why?** Models silently fail when production data drifts from training data. Most teams find out *after* damage is done. `psiwatch` alerts you early.
 
-### Core Features
-- **Zero dependencies** — pure Python, standard library only. ~15KB install. Works anywhere Python runs (Windows, Mac, Linux, Termux/Android, Google Colab).
-- **CLI tool** — `psiwatch compare train.csv production.csv` outputs formatted reports with severity flags.
-- **Multiple I/O modes** — CSV files, pandas DataFrames, Python dicts, lists of dicts.
-- **4 detection methods** — PSI (Population Stability Index), Mean Shift (std deviations), Std Deviation Shift, Chi-Square test.
-- **Rich output** — Terminal (ANSI colored), HTML (shareable), JSON (CI/CD), TXT (logs).
-- **Trend direction** — Numeric columns show trend as ↑ ↓ → (increasing, decreasing, stable).
-- **Vanished category detection** — Flags categories that disappeared from production vs training.
-- **CI/CD integration** — `--fail-on-drift` flag exits with code 1 on drift (block deployments).
-- **Baseline locking** — Lock training data as a statistical fingerprint, ship with model, check in production.
-- **Directory watching** — Poll new CSV files and auto-check against a locked baseline.
-- **Webhook alerts** — Send Slack/Discord/custom JSON alerts when drift detected.
-- **Config files** — `psiwatch.toml` or `.psiwatchrc` for persistent settings.
-- **Trend analysis** — Track drift across time sequences (`psiwatch trend day1.csv day2.csv day3.csv`).
+**Key features:**
+- Pure Python, ~15KB install. Works anywhere (Windows, Mac, Linux, Android/Termux, Colab)
+- CLI + Python API for easy integration
+- Multiple detection methods (PSI, Chi-Square, Mean Shift analysis)
+- Rich terminal output, HTML reports, JSON for CI/CD
+- CI/CD integration with `--fail-on-drift` flag
+- Webhook alerts (Slack, Discord, custom)
 
-### Quick Start
+**Quick start:**
 ```bash
 pip install psiwatch
-psiwatch compare old.csv new.csv --output report.html
+psiwatch compare train.csv prod.csv --output report.html
 ```
 
-### CLI Commands
-```bash
-psiwatch compare train.csv prod.csv              # Compare two datasets
-psiwatch compare train.csv prod.csv --fail-on-drift  # Fail if drift > threshold
-psiwatch compare train.csv prod.csv --webhook https://hooks.slack.com/...  # Alert on drift
-psiwatch lock train.csv                          # Lock baseline
-psiwatch check prod.csv --fail-on-drift          # Check against lock
-psiwatch trend day1.csv day2.csv day3.csv        # Track drift over time
-psiwatch watch data/ --once                      # Check directory (cron-safe)
-psiwatch summary train.csv prod.csv              # Health score only (scripts)
-```
-
-### Python API
-```python
-import psiwatch
-
-# CSV or DataFrame
-psiwatch.compare("old.csv", "new.csv", output="report.html")
-
-# Raw results
-result = psiwatch.analyze("old.csv", "new.csv")
-print(result["health_score"])  # 0-100
-
-# Catch drift in code
-from psiwatch import DriftDetected
-try:
-    psiwatch.compare("old.csv", "new.csv", fail_on_drift=True)
-except DriftDetected:
-    # send alert, stop deploy, etc.
-```
-
-### Comparison with Competitors
-| Feature | psiwatch | evidently | alibi-detect |
-|---|---|---|---|
-| **Dependencies** | Yes (Zero) | No (Heavy) | No (Heavy) |
-| **Install size** | 15KB | 50MB+ | 100MB+ |
-| **CLI tool** | Yes | No | No |
-| **CI/CD `--fail-on-drift`** | Yes | No | No |
-| **Works on Android (Termux)** | Yes | No | No |
-| **Pure Python** | Yes | No | No |
-| **Vanished category detection** | Yes | No | No |
-| **Trend direction (↑↓→)** | Yes | No | No |
-| **Self-upgrade via CLI** | Yes | No | No |
-
-### Example Report
-```
-══════════════════════════════════════════════════════════════
-  PSIWATCH REPORT
-  baseline: train.csv  →  new: production.csv
-══════════════════════════════════════════════════════════════
-
-  [ALERT] credit_score [numeric] — HIGH DRIFT
-     → Mean shifted by 2.20 std devs (752 → 624)  ↓
-     → PSI = 11.12 (significant drift)
-     ┌ Mean:    752 → 624  ↓
-     ├ Std:     48 → 71
-     ├ PSI:     11.12
-     └ Min:     600 → 420
-
-  [ALERT] loan_type [categorical] — HIGH DRIFT
-     → New categories found: ['BNPL', 'Crypto']
-     → Categories vanished: ['Personal']
-     → PSI = 4.19
-
-  ──────────────────────────────────────────────────────────────
-  Health Score: 11/100 (Significant Drift — Action Required)
-══════════════════════════════════════════════════════════════
-```
-
-### Health Score Thresholds
-| Score | Status | Action |
+| | psiwatch | competitors |
 |---|---|---|
-| 80–100 | STABLE | Model is fine, no action needed |
-| 50–79 | MODERATE | Monitor closely, investigate root cause |
-| 0–49 | SIGNIFICANT | Retrain model immediately |
+| **Zero dependencies** | ✓ | ✗ |
+| **CLI tool** | ✓ | ✗ |
+| **CI/CD ready** | ✓ | ✗ |
+| **Works on Android** | ✓ | ✗ |
 
-| Repository | Links |
-|---|---|
-| **Source** | [github.com/tharunstryker/psiwatch](https://github.com/tharunstryker/psiwatch) |
-| **PyPI** | [pypi.org/project/psiwatch](https://pypi.org/project/psiwatch) |
+→ [Source](https://github.com/tharunstryker/psiwatch) · [PyPI](https://pypi.org/project/psiwatch)
 
 </details>
 
 <details>
-<summary><b>PromptLens — Open-Source AI Response Comparator</b></summary>
+<summary><b>PromptLens — AI Response Comparator</b></summary>
 <br/>
 
-Developer utility for comparing LLM responses across multiple providers side-by-side. Built for prompt engineers evaluating model behavior at the output level.
+Prompt engineer's toolkit for comparing LLM responses across multiple providers side-by-side. Built for evaluating model behavior fast.
 
-| Attribute | Detail |
-|---|---|
-| **Stack** | Vanilla JS · Multi-provider LLM APIs |
-| **Scale** | Public open-source |
-| **Repository** | [github.com/tharunstryker/PromptLens](https://github.com/tharunstryker/PromptLens) |
+Stack: Vanilla JS · Multi-provider LLM APIs
+
+→ [Repository](https://github.com/tharunstryker/PromptLens)
 
 </details>
 
 <details>
-<summary><b>Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
+<summary><b>Neeti by Aevra — AI SaaS for Students</b></summary>
 <br/>
 
-Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — frontend, backend, deployment, AI orchestration.
+Production SaaS platform with two products:
+- **CareerKit** — Five AI-powered career guidance tools
+- **CardStudio** — Interactive greeting card engine with animations, themes, and share links
 
-| Attribute | Detail |
-|---|---|
-| **Stack** | Vanilla JS · Supabase · Vercel Edge · Cloudinary · Gemini/Groq/GitHub Models/OpenRouter |
-| **AI** | 4-provider fallback chain · 5 rotating Gemini keys · server-side prompt isolation |
-| **Security** | RLS on all 5 tables · two-cookie admin auth · `_buildEFILES(cfg)` per-tier asset bundling |
-| **Link** | [naeris.vercel.app](https://naeris.vercel.app) |
+Everything built from scratch: frontend, backend, deployment, AI orchestration. Sole author across all layers.
+
+**Stack:** Vanilla JS · Supabase · Vercel Edge · Gemini/Groq/GitHub Models/OpenRouter  
+**Security:** RLS on all tables · two-cookie auth · tier-gated asset bundling  
+**AI:** 4-provider fallback chain with key rotation for reliability
+
+→ [Live](https://naeris.vercel.app)
 
 </details>
 
 ---
 
-## ◈ Experience
+## Experience
 
-**Founder & Engineer** · **Naeris**
-`Jan 2026 — Present`
+**Founder & Engineer** · Naeris (Jan 2026 — Present)
 
-- Published `psiwatch` to PyPI — zero-dependency Python ML monitoring library
-- Built and shipped Neeti: CareerKit + CardStudio, production SaaS on Vercel + Supabase
-- 4-stage AI fallback chain with 5-key Gemini rotation across all tools
-- Full security audit: RLS across 5 tables, tier-gated asset bundling, two-cookie admin auth
-- Built entirely on Android via Termux — no laptop, no PC
+- Shipped `psiwatch` to PyPI — zero-dependency ML monitoring
+- Built production SaaS (CareerKit + CardStudio) on Vercel + Supabase
+- Engineered 4-stage AI fallback chain with rotating API keys
+- Full security implementation: RLS, admin auth, asset bundling
+- Built everything on Android — no laptop, no desktop
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=android&logoColor=white" />
-</p>
+**Stack:** Python · JavaScript · Supabase · Vercel · Gemini API · Termux
 
 ---
 
-## ◈ GitHub Analytics
+## GitHub Overview
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabel=00D4FF" alt="GitHub Streak" />
@@ -249,17 +150,9 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false" alt="Top Languages" />
 </p>
 
----
-
-## ◈ Contribution Activity
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED" alt="Contribution Activity" />
 </p>
-
----
-
-## ◈ Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
@@ -267,21 +160,24 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 
 ---
 
-## ◈ Current Focus
+## Current Focus
+
+Building the future of AI-powered education and ML reliability.
 
 ```yaml
-status:
-  building:
-    - psiwatch — ML drift detection library (PyPI live)
-    - Neeti by Aevra — CareerKit + CardStudio (Razorpay KYC pending)
-  open_to:
-    - AI/ML freelance contracts
-    - Early-stage technical collaboration
+now:
+  - psiwatch — ML drift detection (PyPI live)
+  - Neeti — Education SaaS (product market fit phase)
+
+interested_in:
+  - AI/ML freelance contracts
+  - Early-stage collaborations
+  - Open-source impact
 ```
 
 ---
 
-## ◈ Connect
+## Connect
 
 <p align="center">
   <a href="mailto:tharunstryker@gmail.com">
