@@ -42,7 +42,7 @@
 
 ## About
 
-I'm an AI & Data Science engineer and founder of **Naeris**. I ship real products—from open-source libraries to production SaaS platforms. I've published `psiwatch` to PyPI, built an AI tooling suite, and launched a production platform on Vercel + Supabase. All while learning on Android via Termux.
+I'm an AI & Data Science engineer and founder of **Naeris**. I ship real products—from open-source libraries to production SaaS platforms. I've published `psiwatch` to PyPI, built an AI tooling suite, and engineered production systems on Android.
 
 **Open To:**
 - AI/ML freelance work
@@ -143,15 +143,15 @@ Everything built from scratch: frontend, backend, deployment, AI orchestration. 
 ## GitHub Overview
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabel=00D4FF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=00D4FF&sideNums=FFFFFF&cache_seconds=86400" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false&cache_seconds=86400" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED" alt="Contribution Activity" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunstryker&bg_color=070714&color=00D4FF&line=7C3AED&point=FFFFFF&area=true&area_color=7C3AED&hide_border=false&border_color=7C3AED&cache_seconds=86400" />
 </p>
 
 <p align="center">
