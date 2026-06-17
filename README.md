@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:070714,50:0D0D1A,100:1a0a2e&height=180&section=header&text=THARUN&fontSize=70&fontColor=00D4FF&fontAlign=50&fontAlignY=35&stroke=7C3AED&strokeWidth=2&desc=Founder%20%26%20Engineer%20%7C%20Building%20Naeris&descSize=18&descAlign=50&descAlignY=60&animation=scaleIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:070714,50:0D0D1A,100:1a0a2e&height=180&section=header&text=THARUN&fontSize=70&fontColor=00D4FF&fontAlign=50&fontAlignY=35&stroke=7C3AED" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti+by+Aevra" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Syncopate&weight=700&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=820&lines=Tharun;Founder+%26+Engineer;Building+Naeris;Neeti" alt="Typing SVG" />
   </a>
 </p>
 
@@ -42,9 +42,9 @@
 
 ## About
 
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=7C3AED&text_color=FFFFFF&ring_color=7C3AED&hide_border=false&cache_seconds=86400" />
+<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=tharunstryker&show_icons=true&theme=tokyonight&bg_color=070714&border_color=00D4FF&title_color=00D4FF&icon_color=00D4FF" />
 
-B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely on Android via Termux. No laptop. No PC.
+B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — shipped real products: a published PyPI package, an open-source AI tooling suite, and a production SaaS platform — entirely solo from Android.
 
 **Open To:**
 - AI/ML freelance contracts
@@ -80,7 +80,7 @@ B.Tech AI & Data Science engineer and solo founder. Building **Naeris** — ship
 <summary><b>psiwatch — Zero-Dependency Python ML Drift Detection Library</b></summary>
 <br/>
 
-Published Python package on PyPI. Detects data drift between training and production datasets using PSI, Chi-Square, Mean Shift, and Standard Deviation analysis. Pure Python — no numpy, no scipy, no pandas required.
+Published Python package on PyPI. Detects data drift between training and production datasets using PSI, Chi-Square, Mean Shift, and Standard Deviation analysis. Pure Python — no numpy, no scipy, no external dependencies.
 
 | Attribute | Detail |
 |---|---|
@@ -115,7 +115,7 @@ Developer utility for comparing LLM responses across multiple providers side-by-
 <summary><b>Neeti by Aevra — AI SaaS Platform for Indian Students</b></summary>
 <br/>
 
-Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — product, frontend, backend, AI pipeline, security, billing.
+Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio: interactive greeting card engine with gates, themes, animations, and hosted share links. Every layer sole-authored — frontend, backend, database, and AI orchestration.
 
 | Attribute | Detail |
 |---|---|
@@ -153,11 +153,11 @@ Production-grade dual-product SaaS. CareerKit: five AI career tools. CardStudio:
 ## GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharunstryker&theme=tokyonight&background=070714&border=00D4FF&stroke=00D4FF&ring=7C3AED&fire=00D4FF&currStreakLabel=00D4FF&sideLabel=00D4FF" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF&hide_border=false&cache_seconds=86400" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunstryker&layout=compact&theme=tokyonight&bg_color=070714&border_color=7C3AED&title_color=7C3AED&text_color=FFFFFF" />
 </p>
 
 ---
