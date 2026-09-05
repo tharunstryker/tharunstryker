@@ -1,0 +1,38 @@
+name: 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: tharunstryker
+          SETTING_JSON: |
+            {
+              "githubUserName": "tharunstryker",
+              "type": "NORMAL",
+              "backgroundColor": "#0D0D1A",
+              "strongColor": "#00E5FF",
+              "mediumColor": "#7C3AED",
+              "weakColor": "#1a1a2e",
+              "backgroundImage": false
+            }
+
+      - name: Commit & Push
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add -A .
+          git commit -m "chore: update 3d contrib graph" || exit 0
+          git push
