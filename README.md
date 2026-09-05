@@ -1,52 +1,101 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Tharun Stryker — Naeris systems lab banner" width="100%" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=38&pause=2000&color=00E5FF&center=true&vCenter=true&width=500&height=90&lines=tharun+stryker" />
+<p align="center">
+  <a href="https://naeris.vercel.app">PORTFOLIO</a> ·
+  <a href="https://github.com/tharunstryker">GITHUB</a> ·
+  <a href="mailto:tharunstryker@gmail.com">EMAIL</a>
+</p>
 
-<br/>
+# I build useful systems for messy problems.
 
-<img src="https://img.shields.io/badge/AI%20%26%20Data%20Science-2nd%20Year-00E5FF?style=flat-square&labelColor=0D0D1A" />&nbsp;<img src="https://img.shields.io/badge/psiwatch-PyPI-7C3AED?style=flat-square&labelColor=0D0D1A" />&nbsp;<img src="https://komarev.com/ghpvc/?username=tharunstryker&style=flat-square&color=00E5FF&labelColor=0D0D1A&label=views" />
+I’m **Tharun Stryker**, a founder and engineer working across **AI products, data systems, developer tools, and education technology**.
 
-</div>
+I care about the part after the demo: reliable behavior, clear interfaces, sensible security, and software that another person can actually use.
 
-<br/>
+> **Current signal:** building through [Naeris](https://naeris.vercel.app), shipping open-source tools, and turning AI ideas into working products.
 
----
+<br />
 
-**[psiwatch](https://github.com/tharunstryker/psiwatch)** &nbsp;
-<img src="https://img.shields.io/pypi/v/psiwatch?style=flat-square&color=00E5FF&labelColor=0D0D1A&label=pypi" />&nbsp;<img src="https://img.shields.io/pypi/dm/psiwatch?style=flat-square&color=7C3AED&labelColor=0D0D1A&label=↓/mo" />&nbsp;<img src="https://img.shields.io/badge/deps-zero-00E5FF?style=flat-square&labelColor=0D0D1A" />
+<p align="center">
+  <img src="./assets/workbench.svg" alt="Three selected projects: psiwatch, Neeti, and PromptLens" width="100%" />
+</p>
 
-ML drift detection for production pipelines. Zero dependencies.
+## Selected work
 
-```bash
-pip install psiwatch
-psiwatch compare train.csv prod.csv
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### [`psiwatch`](https://github.com/tharunstryker/psiwatch)
+
+**ML drift detection without the baggage.**
+
+A lightweight Python library for comparing training and production data with PSI, chi-square, and mean-shift analysis.
+
+[PyPI](https://pypi.org/project/psiwatch) · [Source](https://github.com/tharunstryker/psiwatch)
+
+</td>
+<td width="33%" valign="top">
+
+### Neeti by Aevra
+
+**AI tools for learning and direction.**
+
+An education product combining career guidance workflows with an interactive card creation experience.
+
+[Visit Naeris](https://naeris.vercel.app)
+
+</td>
+<td width="33%" valign="top">
+
+### [`PromptLens`](https://github.com/tharunstryker/PromptLens)
+
+**A workbench for comparing LLM outputs.**
+
+A toolkit for testing prompt variations and evaluating responses from multiple providers side by side.
+
+[Explore the repo](https://github.com/tharunstryker/PromptLens)
+
+</td>
+</tr>
+</table>
+
+## The kind of engineering I enjoy
+
+```text
+product surface        →  simple enough to understand
+AI behavior             →  observable enough to trust
+data movement           →  explicit enough to debug
+security boundaries     →  deliberate enough to explain
+shipping                →  frequent enough to learn
 ```
 
-**[<img src="naeris-logo.svg" height="18" align="center" /> Naeris](https://naeris.vercel.app)** &nbsp;
-<img src="https://img.shields.io/website?url=https%3A%2F%2Fnaeris.vercel.app&style=flat-square&color=00E5FF&labelColor=0D0D1A&label=live" />
+## Tools I reach for
 
-AI career tools and card studio. 4-provider LLM fallback. Built solo on Android.
+| Building | Working with |
+|---|---|
+| **Products** | JavaScript, TypeScript, Python, HTML, CSS |
+| **AI systems** | LLM APIs, embeddings, evaluation workflows, provider fallbacks |
+| **Data systems** | PostgreSQL, Supabase, REST APIs, drift detection |
+| **Delivery** | Vercel, Edge Functions, GitHub Actions, Linux, CI/CD |
 
----
+## A little more context
 
-<div align="center">
+- **Founder & engineer at Naeris** — product direction, architecture, implementation, deployment.
+- **Open-source builder** — focused on small tools that solve specific, expensive problems.
+- **AI systems practitioner** — interested in reliability, evaluation, observability, and useful interfaces.
+- **Builder from Krishnagiri, Tamil Nadu** — currently building from a deliberately lightweight setup.
 
-<img src="https://img.shields.io/badge/Python-0D0D1A?style=flat-square&logo=python&logoColor=00E5FF" />&nbsp;<img src="https://img.shields.io/badge/JavaScript-0D0D1A?style=flat-square&logo=javascript&logoColor=7C3AED" />&nbsp;<img src="https://img.shields.io/badge/HTML%2FCSS-0D0D1A?style=flat-square&logo=html5&logoColor=00E5FF" />&nbsp;<img src="https://img.shields.io/badge/Vercel-0D0D1A?style=flat-square&logo=vercel&logoColor=7C3AED" />&nbsp;<img src="https://img.shields.io/badge/Termux-0D0D1A?style=flat-square&logo=gnometerminal&logoColor=00E5FF" />&nbsp;<img src="https://img.shields.io/badge/PyPI-0D0D1A?style=flat-square&logo=pypi&logoColor=7C3AED" />
+## If you are building something serious
 
-<br/><br/>
+I’m open to collaborating with early-stage teams on **AI/ML products, developer tools, data systems, and production architecture**.
 
-<img src="github-metrics.svg" width="100%" />
+If the problem is real and the product should be useful, [let’s talk](mailto:tharunstryker@gmail.com).
 
-<br/>
+<br />
 
-<img src="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake-dark.svg" />
-
-<br/><br/>
-
-<a href="mailto:tharunstryker@gmail.com"><img src="https://img.shields.io/badge/email-0D0D1A?style=for-the-badge&logo=gmail&logoColor=00E5FF" /></a>&nbsp;<a href="https://naeris.vercel.app"><img src="https://img.shields.io/badge/naeris.vercel.app-0D0D1A?style=for-the-badge&logo=vercel&logoColor=7C3AED" /></a>
-
-</div>
+<p align="center">
+  <sub>Built with curiosity, constraints, and a bias toward shipping.</sub>
+</p>

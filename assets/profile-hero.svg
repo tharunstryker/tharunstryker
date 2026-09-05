@@ -1,0 +1,27 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="430" rx="24" fill="#071014"/>
+  <rect x="1" y="1" width="1198" height="428" rx="23" stroke="#21383C" stroke-width="2"/>
+  <circle cx="1045" cy="-20" r="260" fill="#0E3335" opacity="0.7"/>
+  <circle cx="1140" cy="80" r="160" fill="#163E36" opacity="0.65"/>
+  <path d="M0 354C200 285 286 390 468 320C643 253 704 325 850 276C993 228 1054 264 1200 202" stroke="#B7F34A" stroke-width="2" opacity="0.45"/>
+  <path d="M0 378C202 309 291 412 470 342C647 274 716 346 851 297C994 249 1062 284 1200 224" stroke="#41E0D0" stroke-width="1" opacity="0.35"/>
+  <g opacity="0.65">
+    <path d="M740 66H1110M740 102H1110M740 138H1110M740 174H1110M740 210H1110M740 246H1110" stroke="#5B7475" stroke-width="1" stroke-dasharray="3 9"/>
+    <path d="M776 42V282M830 42V282M884 42V282M938 42V282M992 42V282M1046 42V282M1100 42V282" stroke="#5B7475" stroke-width="1" stroke-dasharray="3 9"/>
+  </g>
+  <g>
+    <circle cx="830" cy="102" r="5" fill="#B7F34A"/>
+    <circle cx="938" cy="174" r="5" fill="#41E0D0"/>
+    <circle cx="1046" cy="138" r="5" fill="#B7F34A"/>
+    <circle cx="992" cy="246" r="5" fill="#41E0D0"/>
+    <path d="M830 102L938 174L1046 138L992 246" stroke="#B7F34A" stroke-width="2"/>
+    <path d="M830 102L1046 138M938 174L992 246" stroke="#41E0D0" stroke-width="2" opacity="0.7"/>
+  </g>
+  <text x="76" y="92" fill="#B7F34A" font-family="monospace" font-size="15" letter-spacing="3">NAERIS / SYSTEMS LAB</text>
+  <text x="76" y="176" fill="#F3F8F6" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">THARUN</text>
+  <text x="76" y="238" fill="#F3F8F6" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">STRYKER</text>
+  <text x="80" y="286" fill="#A9C1BD" font-family="monospace" font-size="17">AI products · data systems · useful software</text>
+  <rect x="80" y="329" width="144" height="32" rx="16" fill="#B7F34A"/>
+  <text x="152" y="350" text-anchor="middle" fill="#071014" font-family="monospace" font-size="13" font-weight="700">BUILD / SHIP / LEARN</text>
+  <text x="80" y="399" fill="#5B7475" font-family="monospace" font-size="12">KRISHNAGIRI, TAMIL NADU // 2026</text>
+</svg>

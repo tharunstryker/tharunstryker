@@ -1,0 +1,33 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="340" rx="24" fill="#0B171A"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="#21383C" stroke-width="2"/>
+  <text x="52" y="52" fill="#5B7475" font-family="monospace" font-size="13" letter-spacing="2">SELECTED WORK / 03</text>
+  <path d="M52 78H1148" stroke="#21383C"/>
+  <g>
+    <rect x="52" y="112" width="330" height="162" rx="14" fill="#102326" stroke="#2C5556"/>
+    <circle cx="84" cy="145" r="15" fill="#B7F34A"/>
+    <text x="114" y="151" fill="#F3F8F6" font-family="monospace" font-size="20" font-weight="700">psiwatch</text>
+    <text x="78" y="186" fill="#A9C1BD" font-family="Arial" font-size="14">ML drift detection</text>
+    <text x="78" y="208" fill="#A9C1BD" font-family="Arial" font-size="14">for production data.</text>
+    <path d="M78 239H356" stroke="#2C5556"/>
+    <text x="78" y="261" fill="#B7F34A" font-family="monospace" font-size="12">PYTHON / CLI / CI</text>
+  </g>
+  <g>
+    <rect x="435" y="112" width="330" height="162" rx="14" fill="#102326" stroke="#2C5556"/>
+    <circle cx="467" cy="145" r="15" fill="#41E0D0"/>
+    <text x="497" y="151" fill="#F3F8F6" font-family="monospace" font-size="20" font-weight="700">neeti</text>
+    <text x="461" y="186" fill="#A9C1BD" font-family="Arial" font-size="14">AI education products</text>
+    <text x="461" y="208" fill="#A9C1BD" font-family="Arial" font-size="14">built through Naeris.</text>
+    <path d="M461 239H739" stroke="#2C5556"/>
+    <text x="461" y="261" fill="#41E0D0" font-family="monospace" font-size="12">PRODUCT / AI / WEB</text>
+  </g>
+  <g>
+    <rect x="818" y="112" width="330" height="162" rx="14" fill="#102326" stroke="#2C5556"/>
+    <circle cx="850" cy="145" r="15" fill="#B7F34A"/>
+    <text x="880" y="151" fill="#F3F8F6" font-family="monospace" font-size="20" font-weight="700">PromptLens</text>
+    <text x="844" y="186" fill="#A9C1BD" font-family="Arial" font-size="14">Compare LLM responses</text>
+    <text x="844" y="208" fill="#A9C1BD" font-family="Arial" font-size="14">side by side.</text>
+    <path d="M844 239H1122" stroke="#2C5556"/>
+    <text x="844" y="261" fill="#B7F34A" font-family="monospace" font-size="12">EVALUATION / TOOLS</text>
+  </g>
+</svg>
