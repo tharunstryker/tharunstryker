@@ -12,11 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    # Skip forks — secrets are not available on forks and the job would fail
+    if: ${{ github.repository_owner == 'tharunstryker' }}
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          # Separate write token so the commit is not blocked by branch protection
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           filename: github-metrics.svg
+          output_action: commit
           user: tharunstryker
           template: classic
           config_timezone: Asia/Kolkata
