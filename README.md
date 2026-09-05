@@ -1,101 +1,103 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Tharun Stryker — Naeris systems lab banner" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Tharun Stryker — Naeris Systems Lab" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://naeris.vercel.app">PORTFOLIO</a> ·
   <a href="https://github.com/tharunstryker">GITHUB</a> ·
-  <a href="mailto:tharunstryker@gmail.com">EMAIL</a>
+  <a href="https://pypi.org/project/psiwatch">PYPI</a>
 </p>
 
-# I build useful systems for messy problems.
+# Building the layer between an idea and a working system.
 
-I’m **Tharun Stryker**, a founder and engineer working across **AI products, data systems, developer tools, and education technology**.
+I’m **Tharun Stryker** — a founder and engineer working across **AI products, data systems, machine-learning tooling, and software interfaces**.
 
-I care about the part after the demo: reliable behavior, clear interfaces, sensible security, and software that another person can actually use.
+The work is usually a combination of three things:
 
-> **Current signal:** building through [Naeris](https://naeris.vercel.app), shipping open-source tools, and turning AI ideas into working products.
+- making complex behavior easier to observe;
+- turning a useful idea into a focused product;
+- keeping the implementation small enough to understand.
 
-<br />
+## The workbench
 
 <p align="center">
-  <img src="./assets/workbench.svg" alt="Three selected projects: psiwatch, Neeti, and PromptLens" width="100%" />
+  <img src="./assets/workbench.svg" alt="The workbench: psiwatch, Neeti, and AI systems" width="100%" />
 </p>
 
-## Selected work
-
-<table>
-<tr>
-<td width="33%" valign="top">
+## 01 — Open-source infrastructure
 
 ### [`psiwatch`](https://github.com/tharunstryker/psiwatch)
 
-**ML drift detection without the baggage.**
+**A lightweight Python library for detecting data drift in machine-learning pipelines.**
 
-A lightweight Python library for comparing training and production data with PSI, chi-square, and mean-shift analysis.
+`psiwatch` compares training and production distributions using **Population Stability Index**, chi-square testing, and mean-shift analysis. It is designed to be useful from both a terminal and a Python workflow.
 
-[PyPI](https://pypi.org/project/psiwatch) · [Source](https://github.com/tharunstryker/psiwatch)
+```bash
+pip install psiwatch
+psiwatch compare train.csv prod.csv --output report.html
+```
 
-</td>
-<td width="33%" valign="top">
+The important part is the feedback loop: detect a distribution change, inspect the result, and make the next engineering decision with evidence.
+
+[PyPI package](https://pypi.org/project/psiwatch) · [Repository](https://github.com/tharunstryker/psiwatch)
+
+## 02 — Product systems
 
 ### Neeti by Aevra
 
-**AI tools for learning and direction.**
+**An AI-powered education product built through Naeris.**
 
-An education product combining career guidance workflows with an interactive card creation experience.
+Neeti brings together career guidance workflows and an interactive card creation experience. The project covers the less-visible work around an AI product: interface design, data boundaries, authentication, deployment, asset delivery, and provider orchestration.
 
-[Visit Naeris](https://naeris.vercel.app)
+[Naeris](https://naeris.vercel.app)
 
-</td>
-<td width="33%" valign="top">
-
-### [`PromptLens`](https://github.com/tharunstryker/PromptLens)
-
-**A workbench for comparing LLM outputs.**
-
-A toolkit for testing prompt variations and evaluating responses from multiple providers side by side.
-
-[Explore the repo](https://github.com/tharunstryker/PromptLens)
-
-</td>
-</tr>
-</table>
-
-## The kind of engineering I enjoy
+## 03 — Systems I’m exploring
 
 ```text
-product surface        →  simple enough to understand
-AI behavior             →  observable enough to trust
-data movement           →  explicit enough to debug
-security boundaries     →  deliberate enough to explain
-shipping                →  frequent enough to learn
+ML observability       → making model behavior visible after deployment
+AI orchestration       → making provider changes survivable
+Evaluation             → comparing outputs instead of trusting demos
+Product engineering    → reducing the distance from idea to use
+Open source            → solving one sharp problem at a time
 ```
 
-## Tools I reach for
+## Tools and materials
 
-| Building | Working with |
+| Domain | Working set |
 |---|---|
-| **Products** | JavaScript, TypeScript, Python, HTML, CSS |
-| **AI systems** | LLM APIs, embeddings, evaluation workflows, provider fallbacks |
-| **Data systems** | PostgreSQL, Supabase, REST APIs, drift detection |
-| **Delivery** | Vercel, Edge Functions, GitHub Actions, Linux, CI/CD |
+| **Languages** | Python · JavaScript · TypeScript · HTML · CSS · Bash |
+| **AI / ML** | LLM APIs · embeddings · drift detection · evaluation workflows |
+| **Backend** | Node.js · Supabase · PostgreSQL · REST APIs · serverless functions |
+| **Delivery** | Vercel · Edge Functions · GitHub Actions · Linux · CI/CD |
 
-## A little more context
+## Engineering notes
 
-- **Founder & engineer at Naeris** — product direction, architecture, implementation, deployment.
-- **Open-source builder** — focused on small tools that solve specific, expensive problems.
-- **AI systems practitioner** — interested in reliability, evaluation, observability, and useful interfaces.
-- **Builder from Krishnagiri, Tamil Nadu** — currently building from a deliberately lightweight setup.
+> **Make behavior visible before making systems elaborate.**
+>
+> **Prefer a small interface with a clear failure mode.**
+>
+> **Use automation to remove repetition, not judgment.**
+>
+> **Ship enough to create evidence for the next decision.**
 
-## If you are building something serious
+## GitHub metrics
 
-I’m open to collaborating with early-stage teams on **AI/ML products, developer tools, data systems, and production architecture**.
-
-If the problem is real and the product should be useful, [let’s talk](mailto:tharunstryker@gmail.com).
-
-<br />
+The dashboard below is generated from GitHub data by [lowlighter/metrics](https://github.com/lowlighter/metrics). It includes the isometric contribution calendar, activity, languages, repositories, habits, and achievements.
 
 <p align="center">
-  <sub>Built with curiosity, constraints, and a bias toward shipping.</sub>
+  <img src="./github-metrics.svg" alt="GitHub Metrics dashboard for Tharun Stryker" width="100%" />
+</p>
+
+## Contribution trail
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated contribution grid snake" src="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <sub>NAERIS / SYSTEMS LAB · AI · DATA · SOFTWARE</sub>
 </p>

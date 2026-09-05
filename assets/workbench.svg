@@ -24,10 +24,10 @@
   <g>
     <rect x="818" y="112" width="330" height="162" rx="14" fill="#102326" stroke="#2C5556"/>
     <circle cx="850" cy="145" r="15" fill="#B7F34A"/>
-    <text x="880" y="151" fill="#F3F8F6" font-family="monospace" font-size="20" font-weight="700">PromptLens</text>
-    <text x="844" y="186" fill="#A9C1BD" font-family="Arial" font-size="14">Compare LLM responses</text>
-    <text x="844" y="208" fill="#A9C1BD" font-family="Arial" font-size="14">side by side.</text>
+    <text x="880" y="151" fill="#F3F8F6" font-family="monospace" font-size="20" font-weight="700">AI systems</text>
+    <text x="844" y="186" fill="#A9C1BD" font-family="Arial" font-size="14">Orchestration, evaluation,</text>
+    <text x="844" y="208" fill="#A9C1BD" font-family="Arial" font-size="14">and reliable model behavior.</text>
     <path d="M844 239H1122" stroke="#2C5556"/>
-    <text x="844" y="261" fill="#B7F34A" font-family="monospace" font-size="12">EVALUATION / TOOLS</text>
+    <text x="844" y="261" fill="#B7F34A" font-family="monospace" font-size="12">AI / SYSTEMS / RELIABILITY</text>
   </g>
 </svg>
