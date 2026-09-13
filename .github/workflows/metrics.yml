@@ -5,7 +5,12 @@ on:
     - cron: "17 0 * * *"
   workflow_dispatch:
   push:
-    branches: ["main", "master"]
+    branches: ["main"]
+
+# Avoid overlapping scheduled runs piling up on each other.
+concurrency:
+  group: github-metrics
+  cancel-in-progress: true
 
 jobs:
   github-metrics:
@@ -14,6 +19,10 @@ jobs:
       contents: write
     if: ${{ github.repository_owner == 'tharunstryker' }}
     steps:
+      # METRICS_TOKEN must be a personal access token with at least
+      # `read:user` + `public_repo` scope. Fine-grained tokens and expired
+      # tokens make the habits / activity / achievements plugins fail with
+      # "Unexpected error" and eventually fail the whole run.
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -30,6 +39,8 @@ jobs:
 
           plugin_activity: yes
           plugin_activity_limit: 5
+          plugin_activity_visibility: public
+
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
@@ -39,6 +50,9 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_details: bytes-size, percentage
           plugin_languages_colors: github
+          # Exclude this profile repo so HTML markup doesn't drown out code.
+          plugin_languages_skipped: tharunstryker
+
           plugin_repositories: yes
           plugin_repositories_affiliations: owner, collaborator, organization_member
           plugin_repositories_featured: psiwatch
@@ -46,3 +60,4 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
+          plugin_achievements_limit: 6
