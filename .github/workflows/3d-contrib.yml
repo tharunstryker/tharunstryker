@@ -1,0 +1,29 @@
+name: Generate 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-3d-contrib
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: tharunstryker
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: "profile-3d-contrib"
+          message: "chore: update 3D contribution graph [skip ci]"
