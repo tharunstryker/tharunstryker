@@ -25,7 +25,7 @@ pip install psiwatch
 psiwatch compare train.csv prod.csv --output report.html
 ```
 
-[pypi.org/project/psiwatch](https://pypi.org/project/psiwatch) 路 [github.com/tharunstryker/psiwatch](https://github.com/tharunstryker/psiwatch)
+[pypi.org/project/psiwatch](https://pypi.org/project/psiwatch) &middot; [github.com/tharunstryker/psiwatch](https://github.com/tharunstryker/psiwatch)
 
 ---
 
@@ -37,8 +37,8 @@ AI products. [naeris.vercel.app](https://naeris.vercel.app)
 
 | Language | Infrastructure |
 |---|---|
-| Python 路 JS 路 TS 路 Bash | LLM APIs 路 drift 路 embeddings |
-| Supabase 路 PostgreSQL 路 REST | Vercel 路 GitHub Actions 路 Termux |
+| Python &middot; JS &middot; TS &middot; Bash | LLM APIs &middot; drift &middot; embeddings |
+| Supabase &middot; PostgreSQL &middot; REST | Vercel &middot; GitHub Actions &middot; Termux |
 
 ---
 
@@ -49,7 +49,11 @@ AI products. [naeris.vercel.app](https://naeris.vercel.app)
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake.gif" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/tharunstryker/tharunstryker/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </p>
 
 ---
