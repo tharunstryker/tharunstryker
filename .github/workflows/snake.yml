@@ -20,7 +20,8 @@ jobs:
         with:
           github_user_name: tharunstryker
           outputs: |
-            dist/github-contribution-grid-snake.gif?color_snake=41E0D0&color_dots=#071014,#0a3628,#00755a,#00a67a,#41E0D0&color_background=#071014
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
